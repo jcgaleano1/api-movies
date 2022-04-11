@@ -101,5 +101,8 @@
 }
 
 @media screen and (max-width: 500px){
-    
+ .message-f{
+     width: 380px;
+     font-size: 20px;
+ }   
 }
