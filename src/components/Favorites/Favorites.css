@@ -1,0 +1,105 @@
+.contenedor-f {
+    background-image: url(../../img/fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(17, 14, 14, 0.5);
+    background-blend-mode: color-burn;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    overflow-y: scroll;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-f {
+    background-color: rgba(17, 14, 14, 0.9);
+    width: 350px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.card-f img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo-f {
+    font-size: 60px;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo1-f {
+    font-size: 40px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.titulo1-f:hover{
+    color: yellow;
+}
+.card-f h2{
+    text-align: center;
+}
+
+.button-f {
+    color: white;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    border: 3px solid white;
+}
+
+.button-f:hover {
+    background-color: transparent;
+    color: yellow;
+    border: 3px solid yellow;
+}
+
+.message-f{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    font-size: 22px;
+    padding: 55px 0px;
+    text-align: center;
+    line-height: 2;
+    background-color: rgba(17, 14, 14, 0.9);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.link-f{
+    color: yellow;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px){
+    
+}
